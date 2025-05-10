@@ -22,33 +22,22 @@ Bibliotecas: requests, datetime, os
 🚀 Como Usar
 Clone o repositório:
 
-bash
-Copiar
-Editar
 git clone https://github.com/seu-usuario/seu-repo.git
 cd seu-repo
 Configure as variáveis de ambiente:
 Você pode usar um arquivo .env ou definir diretamente no terminal:
 
-bash
-Copiar
-Editar
 export ENV_API_KEY="sua_api_key"
 export ENV_APP_ID="seu_app_id"
 export ENV_SHEET_ENDPOINT="sua_url_da_planilha"
 export ENV_PASSWORD="sua_senha"
 Execute o script:
 
-bash
-Copiar
-Editar
+
 python treino_monitoramento.py
 Informe os exercícios realizados:
 Quando solicitado, digite os exercícios. Exemplo:
 
-bash
-Copiar
-Editar
 Tell me which exercises you did: I ran for 30 minutes and did 20 minutes of yoga.
 Os dados serão enviados automaticamente para sua planilha online.
 
